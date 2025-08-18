@@ -71,6 +71,7 @@
     - [Git Documentation](https://git-scm.com/doc) (seção "Git Internals").
 
 <aside>
+
 📌 **RESUMO**:
 
 O Git é um **sistema distribuído de snapshots** que:

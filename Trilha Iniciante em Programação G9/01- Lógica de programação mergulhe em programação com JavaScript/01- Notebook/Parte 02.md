@@ -92,6 +92,7 @@
     - Manter **`console.log()`** apenas para debug (ex.: ver o número secreto).
 
 <aside>
+
 📌 **RESUMO**:
 
 **O que aprendemos?**

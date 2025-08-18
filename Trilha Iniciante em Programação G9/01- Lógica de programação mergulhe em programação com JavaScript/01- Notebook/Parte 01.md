@@ -60,6 +60,7 @@ Uma **sequência ordenada de passos** para atingir um objetivo.
 - Se um passo for pulado (ex.: esquecer a água), o café não sai.
 
 <aside>
+
 📌 **RESUMO**:
 
 **Lógica de programação é:**

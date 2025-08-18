@@ -105,6 +105,7 @@ function verificarChute() {
 - Validar entrada (ex: números fora do intervalo 1-10).
 
 <aside>
+
 📌 **RESUMO**:
 
 A aula mostrou como usar **`if/else`** para criar **lógica interativa** em jogos. O sistema agora:

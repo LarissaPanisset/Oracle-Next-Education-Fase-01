@@ -24,6 +24,7 @@
     - **Design mais atrativo** (evitando os **`prompt`** e **`alert`**).
 
 <aside>
+
 📌 **RESUMO**:
 
 - **Prática x Teoria**:

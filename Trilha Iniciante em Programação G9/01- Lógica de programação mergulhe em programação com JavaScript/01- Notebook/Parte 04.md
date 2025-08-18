@@ -110,6 +110,7 @@ São usados para comparar valores antes de aplicar operadores lógicos:
 | ll | Ou/or | (a ll b) |
 
 <aside>
+
 📌 **RESUMO**:
 
 Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são essenciais para criar condições complexas em JavaScript. Eles permitem:

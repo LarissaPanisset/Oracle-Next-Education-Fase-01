@@ -71,6 +71,7 @@
 | **Stack Overflow** | Soluções para problemas específicos. |
 
 <aside>
+
 📌 **RESUMO**:
 
 - **Não decore:**

@@ -77,6 +77,7 @@ function exibirTextoNaTela(tag, texto) {
 - O botão "Chutar" ainda funciona, mostrando a mensagem no console.
 
 <aside>
+
 📌 **RESUMO**:
 
 A aula reforça a importância de:

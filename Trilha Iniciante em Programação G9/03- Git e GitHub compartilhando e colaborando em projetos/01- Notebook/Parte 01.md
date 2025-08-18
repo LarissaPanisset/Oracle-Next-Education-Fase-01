@@ -43,6 +43,7 @@
     - **Gitignore**: Ignorar arquivos desnecessários no repositório.
 
 <aside>
+
 📌 **RESUMO**:
 
 - O curso abordará diversos aspectos essenciais para quem trabalha com desenvolvimento de software.

@@ -86,6 +86,7 @@ console.log("Olá");
 ```
 
 <aside>
+
 📌 **RESUMO**:
 
 1. O ASI existe, mas **não é confiável** — pode causar bugs difíceis de encontrar.
