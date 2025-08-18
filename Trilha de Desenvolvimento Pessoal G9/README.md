@@ -1,7 +1,5 @@
 # Trilha de Desenvolvimento Pessoal - Oracle Next Education (ONE)  
 
-📌 **Tecnologia é para todos!**  
-
 ## 📈 Formação em Produtividade  
 
 Aprender a **melhorar seus hábitos, eficiência profissional e gestão de tempo** para se tornar mais produtivo no dia a dia.  
