@@ -1,9 +1,5 @@
 # 🚀 Trilha Iniciante em Programação - Oracle ONE
 
-## 📌 Sobre o Programa ONE
-O **Oracle Next Education (ONE)** é um programa que oferece formação em tecnologia com conexão direta ao mercado de trabalho através de empresas parceiras.
-
-🤝 **Parceria Alura + Oracle**
 
 ## 🎯 Objetivos da Formação
 - Dominar **lógica de programação** com JavaScript
