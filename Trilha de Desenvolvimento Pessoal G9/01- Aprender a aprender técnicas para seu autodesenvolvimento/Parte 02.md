@@ -38,7 +38,6 @@
     - Se não entender um conteúdo de primeira, anote: *"Usei duas fontes diferentes para estudar – isso expande minha visão!"*
 
 <aside>
-
 📌 **RESUMO**:
 
 ### **Por Que Isso Funciona?**

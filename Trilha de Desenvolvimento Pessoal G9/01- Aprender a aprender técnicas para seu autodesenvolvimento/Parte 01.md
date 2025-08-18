@@ -64,7 +64,6 @@ Ela percebeu que a linguagem mais usada no trabalho **não foi ensinada na facu
 Qual habilidade sua que era fundamental 5 anos atrás e hoje já não é mais? No seu Mercado, o que está mudando? O que deveria ser um ponto de estudos seu agora?
 
 <aside>
-
 📌 **RESUMO**:
 
 Vivemos em uma era de mudanças exponenciais, onde conhecimentos rapidamente se tornam obsoletos. A educação tradicional não acompanha essa velocidade, exigindo uma mentalidade de **aprendizado contínuo** (*life long learning*). Para permanecer relevante, é preciso adaptar-se, desaprender o ultrapassado e absorver novas habilidades – caso contrário, o mercado deixará para trás. O futuro pertence a quem domina a arte de **aprender a aprender**.

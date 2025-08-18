@@ -36,7 +36,6 @@ Para criar uma rotina eficaz, é necessário considerar os **5 pilares** discu
     - Incluir **atividade física** na rotina (ex.: caminhadas, yoga, exercícios rápidos) para melhorar concentração e bem-estar.
 
 <aside>
-
 📌 **RESUMO**:
 
 Planejar uma rotina de estudos não é apenas sobre **cronogramas rígidos**, mas sim sobre **construir um sistema sustentável** que combine **metas, hábitos e bem-estar**. Ao definir **objetivos claros**, **estruturar horários**, **eliminar distrações** e **incluir exercícios físicos**, criamos um ambiente propício para o aprendizado contínuo e eficaz.
