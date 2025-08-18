@@ -24,7 +24,6 @@ Os temas principais incluem:
 O objetivo é capacitar o aluno a criar experiências de aprendizagem eficientes e adaptáveis à sua realidade.
 
 <aside>
-
 📌 **RESUMO**:
 
 Estratégias para o desenvolvimento pessoal em um mundo de informações aceleradas, combinando autoconhecimento, neurociência e metodologias práticas. A proposta é substituir modelos tradicionais por técnicas ativas, permitindo que cada pessoa encontre seu melhor método de aprendizado.
