@@ -28,4 +28,8 @@ Aprender a **melhorar seus hábitos, eficiência profissional e gestão de tempo
 
 #### 5️⃣**Inteligência Artificial nos Estudos**  
 - Use **ChatGPT e ferramentas de IA** para otimizar seu aprendizado.
+  
+---
+
+Feito com 💙 por **LARISSA PANISSET** | Aluna ONE  
 
