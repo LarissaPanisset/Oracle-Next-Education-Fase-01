@@ -29,4 +29,5 @@ Programa de formação em tecnologia com conexão ao mercado de trabalho, fruto 
 - Acesso ao EmpregaONE (vagas)  
 - Comunidade no Discord  
 ---
+Nesse repositório compartilho minhas anotações, exercícios e projetos no programa.🚀💻
 Feito com 💙 por **LARISSA PANISSET** | Aluna ONE  
