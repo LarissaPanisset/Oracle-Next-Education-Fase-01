@@ -22,8 +22,6 @@ Em JavaScript, os operadores lógicos são fundamentais para criar estruturas co
 - **Função:** Verifica se **todas** as condições são verdadeiras.
 - **Exemplo:**
     
-    javascript
-    
     ```
     let idade = 25;
     let possuiCarteira = true;
@@ -44,8 +42,6 @@ Em JavaScript, os operadores lógicos são fundamentais para criar estruturas co
 
 - **Função:** Verifica se **pelo menos uma** das condições é verdadeira.
 - **Exemplo:**
-    
-    javascript
     
     ```
     let temMaça = false;
@@ -82,8 +78,6 @@ São usados para comparar valores antes de aplicar operadores lógicos:
 
 - **Função:** Inverte o valor booleano (**`true`** → **`false`** / **`false`** → **`true`**).
 - **Exemplo:**
-    
-    javascript
     
     ```
     let A = 10;
@@ -144,8 +138,6 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
     - Se muitas condições fossem adicionadas dentro do **`if`**, o código ficaria poluído e difícil de manter.
     - Exemplo original:
         
-        javascript
-        
         ```
         if (chute == numeroSecreto) {
             alert(`Acertou! Número secreto: ${numeroSecreto} em ${tentativas} tentativas.`);
@@ -161,8 +153,6 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
     - Interrompe imediatamente o laço (**`while`**, **`for`**, etc.).
     - Qualquer código após o **`break`** **não é executado**.
 - **Aplicação:**
-    
-    javascript
     
     ```
     if (chute == numeroSecreto) {
@@ -180,16 +170,12 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
     - Loop é interrompido (**`break`**).
     - **`alert()`** externo exibe:
         
-        text
-        
         ```
         "Isso aí! Você descobriu o número secreto 5 com 1 tentativa."
         ```
         
 - **Cenário 2 (Acerto após múltiplas tentativas):**
     - Exemplo com 2 tentativas:
-        
-        text
         
         ```
         "Isso aí! Você descobriu o número secreto 5 com 2 tentativas."
@@ -202,8 +188,6 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 
 - **Problema:** A mensagem sempre usava "tentativas", mesmo para 1 tentativa.
 - **Solução:** Condicional para singular/plural:
-    
-    javascript
     
     ```
     if (tentativas > 1) {
@@ -243,9 +227,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 ### **1. O Problema: Redundância em Condicionais**
 
 - **Contexto:** O código original usava um bloco **`if-else`** para controlar a pluralização da palavra "tentativa(s)" na mensagem de sucesso:
-    
-    javascript
-    
+
     ```
     if (tentativas > 1) {
         alert(`... ${tentativas} tentativas.`);
@@ -266,9 +248,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
     - Sintaxe: **`condição ? valor_se_verdadeiro : valor_se_falso`**.
     - Equivalente a um **`if-else`** compacto.
 - **Aplicação:**
-    
-    javascript
-    
+
     ```
     let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
     alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
@@ -359,25 +339,19 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 ### **3. Ajustando o Intervalo**
 
 1. **Multiplicação por 10:**
-    
-    javascript
-    
+
     ```
     Math.random() * 10// Gera números entre 0.000... e 9.999...
     ```
     
 2. **Extraindo a parte inteira com `parseInt()`:**
-    
-    javascript
-    
+
     ```
     parseInt(Math.random() * 10)// Resultados: 0 a 9
     ```
     
     - **`parseInt()`** descarta as casas decimais.
 3. **Deslocando o intervalo para 1 a 10:**
-    
-    javascript
     
     ```
     parseInt(Math.random() * 10 + 1)// Resultados: 1 a 10
@@ -390,9 +364,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 ### **4. Implementação no Jogo**
 
 - **Substituição no código:**
-    
-    javascript
-    
+
     ```
     // Antigo (número fixo):let numeroSecreto = 5;
     
@@ -443,17 +415,13 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 ### **1. Implementação do Número Aleatório**
 
 - **Código Original (Número Fixo):**
-    
-    javascript
-    
+
     ```
     let numeroSecreto = 5;// Sem graça!
     ```
     
 - **Novo Código (Número Aleatório 1-10):**
-    
-    javascript
-    
+
     ```
     let numeroSecreto = parseInt(Math.random() * 10 + 1);
     ```
@@ -468,9 +436,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 ### **2. Ampliando a Dificuldade (1-100)**
 
 - **Modificação:**
-    
-    javascript
-    
+
     ```
     let numeroSecreto = parseInt(Math.random() * 100 + 1);// 1 a 100
     ```
@@ -479,9 +445,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
         - Multiplicar por **`100`** gera números até **99.999...**.
         - **`+ 1`** garante o intervalo **1 a 100**.
 - **Ajuste no `prompt`:**
-    
-    javascript
-    
+
     ```
     chute = prompt('Escolha um número entre 1 e 100');// Atualizado!
     ```
@@ -511,9 +475,7 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
 - **Desacoplamento:**
     - Mudanças em **`numeroSecreto`** exigem ajustes em outras partes (ex.: **`prompt`**).
     - **Boas práticas:** Centralizar intervalos em variáveis para facilitar manutenção.
-        
-        javascript
-        
+
         ```
         const MIN = 1;
         const MAX = 100;
@@ -532,8 +494,6 @@ Os operadores lógicos (**`&&`**, **`||`**, **`!`**) e de comparação são es
     2. Interface refletiu a mudança (**`prompt`** atualizado).
     3. Jogo mais desafiador e dinâmico.
 
-**Dica:** Use **`Math.floor()`** como alternativa a **`parseInt()`** para arredondar números:
-
-javascript
+**Dica:** Use **`Math.floor()`** como alternativa a **`parseInt()`** para arredondar números
 
 </aside>
