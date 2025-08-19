@@ -82,8 +82,6 @@
     - **Case-sensitive**: **`querySelector`** (com "S" maiúsculo).
     - Exemplo:
         
-        javascript
-        
         ```
         let titulo = document.querySelector('h1');
         ```
@@ -95,9 +93,7 @@
     - Altera o conteúdo interno de um elemento.
     - Tradução: "dentro do HTML".
     - Exemplo:
-        
-        javascript
-        
+
         ```
         titulo.innerHTML = 'Jogo do número secreto';
         ```
@@ -107,34 +103,26 @@
 
 1. **Adicionando um Título (`<h1>`)**
     - Seleção:
-        
-        javascript
-        
+
         ```
         let titulo = document.querySelector('h1');
         ```
         
     - Inserção do texto:
-        
-        javascript
-        
+
         ```
         titulo.innerHTML = 'Jogo do número secreto';
         ```
         
 2. **Adicionando um Parágrafo (`<p>`)**
     - Seleção:
-        
-        javascript
-        
+
         ```
         let paragrafo = document.querySelector('p');
         ```
         
     - Inserção do texto:
-        
-        javascript
-        
+
         ```
         paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
         ```
@@ -201,9 +189,7 @@
 ### **Passo 1: Vinculando o Botão ao JavaScript**
 
 - No **HTML**, o botão "Chutar" possui um atributo **`onclick`**:
-    
-    html
-    
+
     ```
     <button onclick="verificarChute()" class="container__botao">Chutar</button>
     ```
@@ -213,9 +199,7 @@
 ### **Passo 2: Criando a Função no JavaScript**
 
 - **Sintaxe de uma função**:
-    
-    javascript
-    
+
     ```
     function verificarChute() {
     // Corpo da função}
@@ -228,9 +212,7 @@
 ### **Passo 3: Testando a Função**
 
 - **Exemplo inicial**:
-    
-    javascript
-    
+ 
     ```
     function verificarChute() {
       console.log('O botão foi clicado!');
@@ -310,9 +292,7 @@ HTML, CSS e JavaScript são as três tecnologias essenciais para construção de
 - Define a **hierarquia e organização** do conteúdo:
     - Títulos (**`<h1>`**), parágrafos (**`<p>`**), imagens (**`<img>`**), links (**`<a>`**).
 - **Exemplo**:
-    
-    html
-    
+
     ```
     <h1>Título Principal</h1><p>Este é um parágrafo.</p>
     ```
@@ -338,9 +318,7 @@ HTML, CSS e JavaScript são as três tecnologias essenciais para construção de
 - Controla **aparência visual**:
     - Cores, fontes, espaçamento, layouts responsivos.
 - **Exemplo**:
-    
-    css
-    
+
     ```
     p {
       color: blue;
@@ -369,9 +347,7 @@ HTML, CSS e JavaScript são as três tecnologias essenciais para construção de
 - Adiciona **comportamentos dinâmicos**:
     - Validação de formulários, animações, atualizações em tempo real.
 - **Exemplo**:
-    
-    javascript
-    
+
     ```
     function iniciarJogo() {
       alert("Bem-vindo ao jogo!");
