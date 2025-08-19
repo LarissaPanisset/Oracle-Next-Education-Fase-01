@@ -10,8 +10,6 @@
 
 Isso mesmo! **Salvar no VSCode (Ctrl + S) só atualiza o arquivo no seu computador**, mas **não envia para o GitHub**. Para atualizar seu código no GitHub, você precisa **"avisar" o Git** através do terminal.
 
----
-
 ### **🔄 Passo a Passo para Atualizar no GitHub**
 
 ### **1️⃣ Salve no VSCode**
@@ -24,7 +22,7 @@ Isso mesmo! **Salvar no VSCode (Ctrl + S) só atualiza o arquivo no seu computa
 
 ### **3️⃣ Comandos Mágicos para Enviar ao GitHub**
 
-Digite **um por um**: bash
+Digite **um por um**: 
 
 ```
 git add .# Prepara TODAS as alteraçõesgit commit -m "mensagem explicativa"# Cria uma "versão" das mudançasgit push origin main# Envia para o GitHub
@@ -54,7 +52,7 @@ Seus arquivos atualizados devem estar lá!
 
 ### **🚨 Se Der Erro**
 
-- **Primeiro `push`?** Use: bash
+- **Primeiro `push`?** Use:
     
     ```
     git push --set-upstream origin main
@@ -106,7 +104,7 @@ git status
 
 ### **🚀 Como Atualizar TODOS os Arquivos de Uma Vez**
 
-Se preferir enviar **todas as alterações** (incluindo novos arquivos): bash
+Se preferir enviar **todas as alterações** (incluindo novos arquivos):
 
 ```
 git add .# Adiciona TUDO que foi modificadogit commit -m "Atualização geral"
@@ -197,7 +195,7 @@ git push origin main
 **5. Acesso Público ao Repositório:**
 
 - Como o repositório está como **público**, qualquer pessoa pode visualizar, clonar ou baixar os arquivos.
-- Gabrielle consegue modificar os arquivos localmente, mas no próximo vídeo será explicado como enviar alterações de volta ao GitHub (commits e push).
+- Consegue modificar os arquivos localmente, mas no próxima aula será explicado como enviar alterações de volta ao GitHub (commits e push).
 
 <aside>
 
@@ -223,19 +221,19 @@ Nesta aula, aprendemos a **clonar um repositório do GitHub** para trabalhar l
 
 **1. Introdução e Objetivo da Modificação**
 
-Rodrigo propõe aumentar a dificuldade do jogo **"Número Secreto"**, alterando o intervalo de números sorteados de **1 a 10** para **1 a 100**. Gabrielle concorda e inicia as alterações.
+Aumentar a dificuldade do jogo **"Número Secreto"**, alterando o intervalo de números sorteados de **1 a 10** para **1 a 100**.
 
 **2. Alterações nos Arquivos**
 
 - **index.html (Linha 23):**
-    - Modificação do texto para refletir o novo intervalo: html
+    - Modificação do texto para refletir o novo intervalo:
         
         ```
         <p class="texto__paragrafo">Escolha um número entre 1 a 100</p>
         ```
         
 - **app.js (Linha 2):**
-    - Ajuste da variável **`numeroLimite`** para **`100`**: javascript
+    - Ajuste da variável **`numeroLimite`** para **`100`**:
         
         ```
         let numeroSecreto = parseInt(Math.random() * 100) + 1;
@@ -259,9 +257,7 @@ Rodrigo propõe aumentar a dificuldade do jogo **"Número Secreto"**, alterando
 
 - O comando **`git commit -m "mensagem"`** registra as alterações no histórico local.
     - Exemplo:
-        
-        bash
-        
+
         ```
         git commit -m "alterando limite para 100"
         ```
@@ -279,7 +275,7 @@ Rodrigo propõe aumentar a dificuldade do jogo **"Número Secreto"**, alterando
 **7. Repositório Local vs. Remoto**
 
 - O commit foi registrado apenas **localmente** (no computador).
-- O próximo passo seria **enviar as alterações para o repositório remoto no GitHub** (não abordado nesta aula).
+- O próximo passo seria **enviar as alterações para o repositório remoto no GitHub** .
 
 <aside>
 📌 **RESUMO**:
@@ -402,7 +398,7 @@ As sinalizações no VSCode (M e U) são ferramentas visuais essenciais para que
 ✔ **Evitar detalhes técnicos complexos:**
 
 - Detalhes de implementação devem ficar no **código** (comentários) ou na **documentação**.
-- Exemplo **não recomendado**: text
+- Exemplo **não recomendado**:
     
     ```
     Ajustar regex para /^[a-z0-9]+$/i no input
@@ -411,7 +407,7 @@ As sinalizações no VSCode (M e U) são ferramentas visuais essenciais para que
 
 ✔ **Mensagens autossuficientes:**
 
-- Evitar mensagens vagas como: text
+- Evitar mensagens vagas como:
     
     ```
     Arrumar bug
@@ -424,7 +420,7 @@ As sinalizações no VSCode (M e U) são ferramentas visuais essenciais para que
     ```
     
 
-**4. Exemplo de Commit Bem Estruturado** text
+**4. Exemplo de Commit Bem Estruturado**
 
 ```
 Adicionar suporte a temas escuros no CSS
