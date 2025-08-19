@@ -327,8 +327,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 
 ### Anotações
 
-## **Ideias Centrais (Lado Direito)**
-
 ### **1. O Problema Identificado**
 
 - O jogo atual sempre exibe "Você acertou!", mesmo com chutes errados
