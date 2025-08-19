@@ -17,16 +17,12 @@
     - Desativar temporariamente partes do código sem apagá-las.
 - **Sintaxe**:
     
-    javascript
-    
     ```
     // Comentário de uma linha/* Comentário de
        múltiplas linhas */
     ```
     
 - **Exemplo no jogo**:
-    
-    javascript
     
     ```
     // Se chute for igual ao número secretoif (chute == numeroSecreto) {
@@ -39,8 +35,6 @@
 - **Complementa o `if`**: Executa código quando a condição é falsa.
 - **Sintaxe**:
     
-    javascript
-    
     ```
     if (condição) {
     // Código se VERDADEIRO} else {
@@ -48,9 +42,7 @@
     ```
     
 - **Exemplo prático**:
-    
-    javascript
-    
+
     ```
     if (chute == numeroSecreto) {
       alert('Acertou!');
@@ -67,8 +59,6 @@
     - **`console.log('texto')`** → Exibe o texto literal.
     - **`console.log(variavel)`** → Exibe o valor da variável.
 - **Uso no jogo**:
-    
-    javascript
     
     ```
     let numeroSecreto = 5;
@@ -124,9 +114,7 @@ Sempre use console.log() para verificar valores durante o desenvolvimento, mas r
 ### **1. O Problema do Código Estático**
 
 - **Situação inicial**:
-    
-    javascript
-    
+
     ```
     alert('Isso ai! Você descobriu o número secreto 5');
     ```
@@ -142,8 +130,6 @@ Sempre use console.log() para verificar valores durante o desenvolvimento, mas r
     - Strings que permitem incorporar variáveis e expressões diretamente.
 - **Sintaxe**:
     
-    javascript
-    
     ```
     `Texto ${variavel} mais texto`
     ```
@@ -151,8 +137,6 @@ Sempre use console.log() para verificar valores durante o desenvolvimento, mas r
     - Usam **crases** (**```**) em vez de aspas.
     - Variáveis são inseridas com **`${ }`**.
 - **Exemplo no jogo**:
-    
-    javascript
     
     ```
     alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto}`);
@@ -171,9 +155,7 @@ Sempre use console.log() para verificar valores durante o desenvolvimento, mas r
 ### **4. Fluxo de Atualização**
 
 1. Altere **`numeroSecreto`** no código:
-    
-    javascript
-    
+
     ```
     let numeroSecreto = 8;// Ou qualquer outro número
     ```
@@ -194,8 +176,6 @@ Sempre use console.log() para verificar valores durante o desenvolvimento, mas r
 **Dica Profissional:**
 
 Template strings também permitem quebras de linha naturais no código:
-
-javascript
 
 ```
 alert(`Você acertou!
@@ -249,8 +229,6 @@ Parabéns!`);
 ### **5. Como Funciona**
 
 - Injeta um script no HTML:
-    
-    html
     
     ```
     <!-- Code injected by live server -->
@@ -311,8 +289,6 @@ Parabéns!`);
 
 ### **Como usar no Jogo do Número Secreto**
 
-javascript
-
 ```
 alert('Boas vindas ao jogo do número secreto');
 
@@ -360,8 +336,6 @@ if (chute == numeroSecreto) {
     - **`console.error()`** para erros críticos.
     
     ### **Exemplo Avançado**
-    
-    javascript
     
     ```
     // Debug detalhado com template string
