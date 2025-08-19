@@ -1,57 +1,5 @@
 # **Git e GitHub: compartilhando e colaborando em projetos**
 
-### **Introdução ao Curso de GIT e GitHub - Objetivos e Ferramentas**
-
-### Lembretes
-
-- GIT e GitHub
-- Compartilhamento de código
-- Trabalho em equipe
-- Repositórios
-- Fluxo de trabalho
-- Conflitos de código
-- Histórico de versões
-- Ferramentas adicionais (Gist, README, Gitignore)
-- Prompt de Comandos e VS Code
-
-### Anotações
-
-**1. Apresentação dos Instrutores:**
-
-- **Rodrigo Ferreira**: Instrutor da Alura, homem de pele branca, cabelo castanho curto, vestindo camisa azul.
-- **Gabrielle Ribeiro (Gabi)**: Instrutora da Alura, mulher parda, cabelo curto verde, óculos arredondados, piercing no septo, camisa preta.
-- Ambos estão no estúdio da Alura, em uma mesa redonda com laptops.
-
-**2. Público-Alvo do Curso:**
-
-- Destinado a programadores ou interessados em programação, independentemente da linguagem ou área (back-end, front-end, mobile).
-- Foco em ferramentas de **compartilhamento e colaboração em código (GIT e GitHub)**.
-
-**3. Objetivos do Curso:**
-
-- **Entender o GitHub**: O que é, como funciona e como criar uma conta.
-- **Repositórios**: Locais para armazenar e compartilhar código.
-- **Trabalho em equipe**: Como colaborar em projetos, permitindo que outras pessoas façam alterações e compartilhem mudanças.
-- **Fluxo de trabalho no GIT**: Como gerenciar alterações e versões do código.
-- **Ferramentas utilizadas**:
-    - **Prompt de Comandos** e **Visual Studio Code (VS Code)** para integração com GIT.
-    - **Resolução de conflitos**: Lidar com situações onde várias pessoas editam o mesmo arquivo/linha.
-- **Histórico de versões**: Como visualizar, modificar e apagar informações do histórico.
-- **Ferramentas extras do GitHub**:
-    - **Gist**: Para compartilhar trechos de código.
-    - **README**: Documentação de projetos.
-    - **Gitignore**: Ignorar arquivos desnecessários no repositório.
-
-<aside>
-
-📌 **RESUMO**:
-
-- O curso abordará diversos aspectos essenciais para quem trabalha com desenvolvimento de software.
-- Se interessou? **Vamos para a primeira aula!**
-</aside>
-
----
-
 ### **Criando um Repositório no GitHub: Organização e Configurações**
 
 ### Lembretes
@@ -231,9 +179,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 ### **5. Configuração Final e Próximos Passos**
 
 - Após a instalação, o comando **`git init`** funciona:
-    
-    bash
-    
+
     ```
     Initialized empty Git repository in C:/Users/[usuário]/Desktop/numero-secreto/.git/
     ```
@@ -284,17 +230,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 - **Passo a passo**:
     1. Abra o terminal do **VS Code** (ou outro) no diretório do projeto.
     2. Execute:
-        
-        bash
-        
+ 
         ```
         git init
         ```
         
     3. Saída esperada:
-        
-        bash
-        
+
         ```
         Initialized empty Git repository in [caminho-do-projeto]/.git/
         ```
@@ -302,9 +244,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 - **Atenção**:
     - O comando **deve ser executado na pasta raiz do projeto** (não em subpastas ou diretórios aleatórios).
     - Exemplo correto:
-        
-        bash
-        
+ 
         ```
         ~/Projetos/meu-projeto$ git init
         ```
@@ -314,9 +254,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 - **Reinicialização acidental**:
     - Se executar **`git init`** em um repositório **já existente**, o Git exibirá:
-        
-        bash
-        
+
         ```
         Reinitialized existing Git repository in [caminho]/.git/
         ```
@@ -324,17 +262,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
     - **Não apaga o histórico**, mas é desnecessário.
 - **Como evitar**:
     - Verifique se o diretório já é um repositório Git com:
-        
-        bash
-        
+
         ```
         git status
         ```
         
     - Se a saída for:
-        
-        bash
-        
+
         ```
         fatal: not a git repository (or any of the parent directories): .git
         ```
@@ -348,9 +282,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
     - Permite **commits**, **branches** e **histórico de versões**.
     - Pré-requisito para integrar com **GitHub** (via **`git remote add`**).
 - **Fluxo típico**:
-    
-    bash
-    
+
     ```
     git init → git add → git commit → git remote add → git push
     ```
@@ -394,9 +326,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 - **Erro comum**: *Author identity unknown*.
     - **Solução**: Definir identidade globalmente:
-        
-        bash
-        
+
         ```
         git config --global user.email "seu@email.com"
         git config --global user.name "Seu Nome"
@@ -409,9 +339,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 - **Problema**: **`Permission denied (publickey)`** ao executar **`git push`**.
 - **Solução**: Gerar e registrar chave SSH no GitHub:
     1. **Gerar chave**:
-        
-        bash
-        
+ 
         ```
         ssh-keygen -t ed25519 -C "seu@email.com"
         ```
@@ -436,17 +364,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 ### **5. Finalizando o Upload**
 
 - Após configurar a chave SSH, execute novamente:
-    
-    bash
-    
+
     ```
     git push -u origin main
     ```
     
 - **Saída esperada**:
-    
-    bash
-    
+
     ```
     [new branch] main -> main
     ```
@@ -459,9 +383,7 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 - A conexão entre repositórios exige **configuração de usuário** e **autenticação via SSH**.
 - O protocolo SSH **elimina a necessidade de digitar credenciais** repetidamente.
 - Após o primeiro **`git push`**, os próximos commits exigem apenas:
-    
-    bash
-    
+
     ```
     git add . → git commit -m "mensagem" → git push
     ```
@@ -495,13 +417,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **A) Adicionar um Repositório Remoto**
 
-- **Sintaxe**: bash
+- **Sintaxe**: 
     
     ```
     git remote add <apelido> <URL>
     ```
     
-- **Exemplo**: bash
+- **Exemplo**:
     
     ```
     git remote add origin git@github.com:usuario/repositorio.git
@@ -513,13 +435,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **B) Listar Repositórios Remotos**
 
-- **Sintaxe**: bash
+- **Sintaxe**:
     
     ```
     git remote -v
     ```
     
-- **Saída**: bash
+- **Saída**:
     
     ```
     origin  git@github.com:usuario/repositorio.git (fetch)
@@ -530,13 +452,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **C) Remover um Repositório Remoto**
 
-- **Sintaxe**: bash
+- **Sintaxe**:
     
     ```
     git remote remove <apelido>
     ```
     
-- **Exemplo**: bash
+- **Exemplo**:
     
     ```
     git remote remove origin
@@ -546,13 +468,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **D) Alterar a URL de um Repositório Remoto**
 
-- **Sintaxe**: bash
+- **Sintaxe**:
     
     ```
     git remote set-url <apelido> <nova_URL>
     ```
     
-- **Exemplo**: bash
+- **Exemplo**:
     
     ```
     git remote set-url origin git@github.com:usuario/novo-repositorio.git
@@ -564,13 +486,13 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **E) Renomear um Repositório Remoto**
 
-- **Sintaxe**: bash
+- **Sintaxe**: 
     
     ```
     git remote rename <apelido_atual> <novo_apelido>
     ```
     
-- **Exemplo**: bash
+- **Exemplo**: 
     
     ```
     git remote rename origin upstream
@@ -582,31 +504,31 @@ git remote add origin [URL-do-repositório]# Conecta ao repositório remotogit b
 
 ### **3. Exemplo Completo de Fluxo**
 
-1. **Adicionar um remoto**: bash
+1. **Adicionar um remoto**:
     
     ```
     git remote add origin git@github.com:usuario/projeto.git
     ```
     
-2. **Verificar**: bash
+2. **Verificar**:
     
     ```
     git remote -v
     ```
     
-3. **Alterar URL (se necessário)**: bash
+3. **Alterar URL (se necessário)**:
     
     ```
     git remote set-url origin git@github.com:usuario/projeto-novo.git
     ```
     
-4. **Renomear**: bash
+4. **Renomear**:
     
     ```
     git remote rename origin meu-repositorio
     ```
     
-5. **Remover**: bash
+5. **Remover**:
     
     ```
     git remote remove meu-repositorio
