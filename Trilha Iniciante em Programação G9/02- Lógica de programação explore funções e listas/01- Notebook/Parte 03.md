@@ -20,8 +20,6 @@ Implementar a lógica que:
 
 ### **2. Estrutura da Função `verificarChute()`**
 
-javascript
-
 ```
 function verificarChute() {
     let chute = document.querySelector('input').value;
@@ -56,18 +54,14 @@ function verificarChute() {
 ### **4. Testes e Depuração**
 
 - **Usando Número Fixo (`7`):**
-    
-    javascript
-    
+
     ```
     let numeroSecreto = 7;// Para testes iniciais
     ```
     
     - Garantia de acerto ao digitar **`7`**, facilitando a validação.
 - **Voltando ao Número Aleatório:**
-    
-    javascript
-    
+
     ```
     let numeroSecreto = gerarNumeroAleatorio();// Versão final
     ```
@@ -150,8 +144,6 @@ Adicionar um sistema que:
 
 **a) Variável de Controle**
 
-javascript
-
 ```
 let tentativas = 1;// Começa com 1 pois o primeiro chute já conta
 ```
@@ -159,8 +151,6 @@ let tentativas = 1;// Começa com 1 pois o primeiro chute já conta
 **b) Lógica de Pluralização**
 
 Usando operador ternário para escolher entre singular/plural:
-
-javascript
 
 ```
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
@@ -170,15 +160,12 @@ let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
 
 Mensagem personalizada com número de tentativas:
 
-javascript
-
 ```
 let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
 ```
 
 **d) Incremento nas Tentativas Erradas**
 
-javascript
 
 ```
 } else {
@@ -187,8 +174,6 @@ javascript
 ```
 
 ### **3. Código Completo da Função**
-
-javascript
 
 ```
 function verificarChute() {
@@ -277,9 +262,7 @@ O sistema agora não só diz se o chute está correto, mas também:
         - Usar **`document.querySelector('input')`** para selecionar o campo (sem **`.value`**, pois queremos o elemento, não seu valor).
         - Atribuir **`chute.value = ''`** (string vazia) para "limpar" o campo visualmente.
     - **Exemplo do Código:**
-        
-        javascript
-        
+  
         ```
         function limparCampo() {
             chute = document.querySelector('input');
@@ -296,9 +279,7 @@ O sistema agora não só diz se o chute está correto, mas também:
         - Diferente de **`querySelector`**, que pega o primeiro elemento, o **`getElementById`** busca diretamente pelo **`id`**.
     - **Remover o `disabled`:** Usar **`removeAttribute('disabled')`** para habilitar o botão.
 - **Implementação no Código:**
-    
-    javascript
-    
+
     ```
     if (chute == numeroSecreto) {
     // ... (código de mensagem de acerto)
@@ -351,9 +332,7 @@ O sistema agora não só diz se o chute está correto, mas também:
 
 1. **HTML:**
     - Adicionar **`onclick="reiniciarJogo()"`** ao botão no **`index.html`**.
-    
-    html
-    
+
     ```
     <button onclick="reiniciarJogo()" id="reiniciar" disabled>Novo jogo</button>
     ```
@@ -361,9 +340,7 @@ O sistema agora não só diz se o chute está correto, mas também:
 2. **JavaScript (`app.js`):**
     - Criar a função **`reiniciarJogo()`**:
         - **Resetar o jogo:**
-            
-            javascript
-            
+
             ```
             function reiniciarJogo() {
                 numeroSecreto = gerarNumeroAleatorio();// Novo sorteiolimparCampo();// Limpa o input
@@ -383,9 +360,7 @@ O sistema agora não só diz se o chute está correto, mas também:
 
 - **Refatoração com `exibirMensagemInicial()`:**
     - Isolar a exibição dos textos iniciais em uma função reutilizável:
-        
-        javascript
-        
+
         ```
         function exibirMensagemInicial() {
             exibirTextoNaTela('h1', 'Jogo do número secreto');
