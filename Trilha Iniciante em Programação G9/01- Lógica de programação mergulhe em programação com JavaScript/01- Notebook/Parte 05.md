@@ -83,8 +83,6 @@
 
 **Dica Final:** Crie um "cheat sheet" pessoal com conceitos-chave (não código pronto!) para consultas rápidas. Exemplo:
 
-markdown
-
 ```
 - Math.random(): Retorna float entre [0, 1).
 - Intervalo 1-100: (random * 100) + 1.
@@ -116,8 +114,6 @@ Nesta aula, foi abordada a modificação do jogo do "Número Secreto" para permi
     - Foi criada uma variável chamada **`numeroMaximo`** para armazenar o valor máximo desejado.
     - Exemplo:
         
-        javascript
-        
         ```
         let numeroMaximo = 5000;
         ```
@@ -125,9 +121,7 @@ Nesta aula, foi abordada a modificação do jogo do "Número Secreto" para permi
     - Esse valor pode ser ajustado conforme a necessidade (ex.: 1000, 10000, etc.).
 2. **Substituição no `Math.random()`**:
     - O valor fixo **`100`** foi substituído pela variável **`numeroMaximo`** na geração do número secreto:
-        
-        javascript
-        
+
         ```
         let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
         ```
@@ -137,8 +131,6 @@ Nesta aula, foi abordada a modificação do jogo do "Número Secreto" para permi
 ### **Atualização da Mensagem de Prompt**
 
 - Para informar o jogador sobre o novo intervalo, foi utilizada uma **template string** (crases **```** e **`${}`**):
-    
-    javascript
     
     ```
     prompt(`Escolha um número entre 1 a ${numeroMaximo}`);
@@ -180,7 +172,7 @@ Nesta aula, foi abordada a modificação do jogo do "Número Secreto" para permi
 
 ### **1. Introdução**
 
-A aula encerrou com uma lista de referências valiosas para quem deseja aprofundar os conhecimentos em **JavaScript, lógica de programação e desenvolvimento web**. Esses materiais incluem livros, tutoriais e documentações oficiais.
+Uma lista de referências valiosas para quem deseja aprofundar os conhecimentos em **JavaScript, lógica de programação e desenvolvimento web**. Esses materiais incluem livros, tutoriais e documentações oficiais.
 
 ### **2. Livros Recomendados**
 
