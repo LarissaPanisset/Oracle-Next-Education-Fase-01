@@ -17,8 +17,6 @@
     - JavaScript tenta "adivinhar" e inserir **`;`** onde faltam.
     - Exemplo:
         
-        javascript
-        
         ```
         let x = 1// ASI adiciona ; aquilet y = 2
         ```
@@ -29,9 +27,7 @@
 - **Comportamentos inesperados**:
     - Pode inserir **`;`** em lugares errados, causando bugs.
     - Caso clássico:
-        
-        javascript
-        
+
         ```
         return
           { nome: "João" };// Retorna `undefined`! (ASI adiciona ; após return)
@@ -43,8 +39,6 @@
 - **Situações críticas**:
     - **Declarações `return`**: Quebras de linha após **`return`** são perigosas.
     - **Operações em uma linha**:
-        
-        javascript
         
         ```
         a = b
@@ -73,8 +67,6 @@
 
 **Dica Visual**:
 
-javascript
-
 ```
 // ❌ Arriscado (depende do ASI):
 console.log("Olá")
@@ -99,8 +91,6 @@ console.log("Olá");
     
 
 **Exemplo Crítico**:
-
-javascript
 
 ```
 // SEM ; → Risco de erro:let a = 1
@@ -136,7 +126,7 @@ javascript
 
 **🔁 Conceito de Loop (while):**
 
-- Guilherme apresenta a estrutura de repetição `while`, que executa **enquanto** uma condição for verdadeira.
+- Apresenta a estrutura de repetição `while`, que executa **enquanto** uma condição for verdadeira.
 - Sintaxe:
     
     ```jsx
@@ -224,7 +214,7 @@ while (chute != numeroSecreto) {
 
 **🔧 Organização do código (indentação):**
 
-- Guilherme reforça a importância da **indentação (recuo)** para garantir a clareza do escopo (`while`, `if`, `else`).
+- A importância da **indentação (recuo)** para garantir a clareza do escopo (`while`, `if`, `else`).
 - Identamos o conteúdo do `if` dentro do `while` usando `Shift + {`.
 
 **🧪 Teste de execução no navegador:**
@@ -239,7 +229,7 @@ while (chute != numeroSecreto) {
 
 **🧮 Explicação dos operadores de comparação:**
 
-- Mônica relaciona os operadores com os conceitos escolares:
+- relacionar os operadores com os conceitos escolares:
     - `!=`: diferente
     - `==`: igual
     - `>`: maior
@@ -273,10 +263,6 @@ Nesta aula, aprendemos a usar a estrutura de repetição `while` para **repetir 
 - O que acontece nos testes práticos?
 
 ### Anotações
-
-### 🔧 **Correções iniciais com ponto e vírgula**
-
-Mônica relembra que Guilherme havia pedido para corrigir quando ele esquecesse do **ponto e vírgula**, prática comum e recomendada para evitar ambiguidade no código JavaScript.
 
 **Correções feitas no código:**
 
@@ -400,7 +386,7 @@ alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentati
 
 ### 👩‍💻 **Teste prático do jogo**
 
-Mônica faz os testes no navegador com os seguintes chutes:
+Fazer os testes no navegador com os seguintes chutes:
 
 1. Número 1 (incorreto)
 2. Número 8 (incorreto)
