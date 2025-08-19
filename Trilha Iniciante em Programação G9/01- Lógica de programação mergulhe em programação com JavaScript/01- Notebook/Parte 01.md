@@ -191,8 +191,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 - **Função `alert()`**: Mostra uma caixa de diálogo no navegador.
     - Sintaxe:
         
-        javascript
-        
         ```
         alert('Mensagem aqui');
         ```
@@ -202,9 +200,7 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
         - Ponto e vírgula (**`;`**) no final (boa prática em JavaScript).
 - **Passo a passo**:
     1. Abrir **`app.js`** no VS Code.
-    2. Escrever:
-        
-        javascript
+    2. Escrever: 
         
         ```
         alert('Boas-vindas ao jogo do Número Secreto');
@@ -261,9 +257,7 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 
 ### **2. Criando Variáveis em JavaScript**
 
-- **Sintaxe**:
-    
-    javascript
+- **Sintaxe**: 
     
     ```
     let nomeDaVariavel = valor;
@@ -273,8 +267,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
     - Nomes sem acentos e em **camelCase** (ex.: **`numeroSecreto`**).
     - Nomes descritivos (evitar **`x`**, **`a`**).
 - **Exemplo no jogo**:
-    
-    javascript
     
     ```
     let numeroSecreto = 29;// Armazena o número a ser adivinhado
@@ -291,9 +283,7 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 
 ### **4. Interação com o Usuário**
 
-- **`prompt()`**: Abre uma caixa para entrada de dados.
-    
-    javascript
+- **`prompt()`**: Abre uma caixa para entrada de dados. 
     
     ```
     prompt('Escolha um número entre 1 e 30');// Captura o chute do jogador
@@ -348,8 +338,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 
 - **Sintaxe básica**:
     
-    javascript
-    
     ```
     if (condição) {
     // código executado se a condição for verdadeira}
@@ -363,8 +351,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 
 - Criamos uma variável para guardar a entrada do usuário:
     
-    javascript
-    
     ```
     let chute = prompt('Escolha um número entre 1 e 10');
     ```
@@ -373,8 +359,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 ### **4. Implementando a Verificação**
 
 - Código completo:
-    
-    javascript
     
     ```
     let numeroSecreto = 5;
@@ -413,8 +397,6 @@ Aprender uma linguagem de programação é como aprender a cozinhar:
 **Dica prática:**
 
 Experimente modificar a condição para:
-
-javascript
 
 ```
 if (chute > numeroSecreto) {
@@ -461,16 +443,12 @@ Lembretes
 - **Função**: Armazenar dados para uso posterior.
 - **Sintaxe**:
     
-    javascript
-    
     ```
     let nomeDaVariavel = valor;
     ```
     
 - **Exemplos**:
-    
-    javascript
-    
+
     ```
     let nome = "Ana";// String (texto)
     let idade = 25;// Número
@@ -493,8 +471,6 @@ Lembretes
 - **Lógica**: Executar ações diferentes com base em condições.
 - **Sintaxe**:
     
-    javascript
-    
     ```
     if (condição) {
     // Código se verdadeiro} else {
@@ -513,8 +489,6 @@ Lembretes
     | **`>=`** | Maior ou igual | **`idade >= 18`** |
     | **`<=`** | Menor ou igual | **`altura <= 1.90`** |
 - **Exemplo Prático**:
-    
-    javascript
     
     ```
     let temPao = prompt("Tem pão? (sim/não)");
@@ -538,7 +512,5 @@ Lembretes
 **Dica de Prática:**
 
 Experimente modificar este código no VS Code:
-
-javascript
 
 </aside>
