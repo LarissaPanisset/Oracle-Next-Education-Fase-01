@@ -15,12 +15,12 @@ Programa de formação em tecnologia com conexão ao mercado de trabalho, fruto 
 
 ### Fase 2: Tech Foundation (5 meses)
 - Escolha de especialização:  
-  - **Data Science** (Python, Pandas, ML)  
-  - **Back-End** (Java, Spring Framework)  
+  - **Data Science**  
+  - **Back-End**   
 - Soft Skills e Challenges
 
 ### Fase 3: Tech Advanced (5 meses)
-- Conteúdos Oracle (Cloud, SQL, IA)  
+- Conteúdos Oracle  
 - Comunidade AlumniONE com vagas exclusivas  
 
 ## 💡 Benefícios
@@ -29,4 +29,6 @@ Programa de formação em tecnologia com conexão ao mercado de trabalho, fruto 
 - Acesso ao EmpregaONE (vagas)  
 - Comunidade no Discord  
 ---
+Nesse repositório compartilho minhas anotações, exercícios e projetos no programa.🚀💻
+
 Feito com 💙 por **LARISSA PANISSET** | Aluna ONE  

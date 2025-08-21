@@ -24,9 +24,7 @@
 1. **Inclusão do Script**
     
     Adiciona-se o seguinte código no HTML para carregar a biblioteca:
-    
-    html
-    
+
     ```
     <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
     ```
@@ -45,8 +43,6 @@
             - **`rate`**: Velocidade da fala (ex: **`{ rate: 1.2 }`**).
 
 **Código Adaptado**
-
-javascript
 
 ```
 function exibirTextoNaTela(tag, texto) {
@@ -107,18 +103,14 @@ A integração do ResponsiveVoice trouxe acessibilidade e interatividade ao jogo
 
 1. **Remoção do ResponsiveVoice**:
     - Excluir a linha do script no HTML:
-        
-        html
-        
+
         ```
         <!-- Remover esta linha --><script src="https://code.responsivevoice.org/responsivevoice.js"></script>
         ```
         
     - Substituir a função **`responsiveVoice.speak()`** no JavaScript.
 2. **Código Adaptado**:
-    
-    javascript
-    
+
     ```
     function exibirTextoNaTela(tag, texto) {
         let campo = document.querySelector(tag);

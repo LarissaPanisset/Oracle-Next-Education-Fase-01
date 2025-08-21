@@ -55,7 +55,7 @@
 
 - Comando **`git log`**:
     - Mostra a sequência de commits, seus IDs, autores e mensagens.
-    - Exemplo: bash
+    - Exemplo:
         
         ```
         commit a1b2c3d (HEAD -> main)
@@ -104,9 +104,9 @@ Rodrigo explica que Gabrielle fez alterações e commits **localmente**, mas es
 
 ### **2. Verificando a Conexão com o Repositório Remoto**
 
-- Gabrielle pergunta se precisa reconectar o repositório local ao remoto.
+- Precisa reconectar o repositório local ao remoto?
 - Rodrigo esclarece que **o comando `git clone` já configura automaticamente** a conexão com o remoto (chamado **`origin`**).
-- Para confirmar, executam: bash
+- Para confirmar, executar: 
     
     ```
     git remote
@@ -116,7 +116,7 @@ Rodrigo explica que Gabrielle fez alterações e commits **localmente**, mas es
 
 ### **3. Enviando Commits com `git push`**
 
-- Comando usado: bash
+- Comando usado: 
     
     ```
     git push origin main
@@ -132,10 +132,10 @@ Rodrigo explica que Gabrielle fez alterações e commits **localmente**, mas es
 
 ### **Passo a Passo:**
 
-1. Rodrigo acessa **Settings** > **Collaborators** no repositório.
-2. Clica em **"Add people"** e insere o username da Gabrielle.
-3. Gabrielle recebe um e-mail de convite e **aceita o acesso**.
-4. Agora, ela aparece como colaboradora no repositório.
+1. Acessa **Settings** > **Collaborators** no repositório.
+2. Clica em **"Add people"** e insere o username da colaborador.
+3. O colaborador recebe um e-mail de convite e **aceita o acesso**.
+4. Agora, ele aparece como colaboradora no repositório.
 
 ### **Por Que Isso é Importante?**
 
@@ -144,7 +144,7 @@ Rodrigo explica que Gabrielle fez alterações e commits **localmente**, mas es
 
 ### **5. Push Bem-Sucedido**
 
-- Após a permissão ser concedida, Gabrielle executa novamente: bash
+- Após a permissão ser concedida, o colaborador executa novamente:
     
     ```
     git push origin main
@@ -152,12 +152,7 @@ Rodrigo explica que Gabrielle fez alterações e commits **localmente**, mas es
     
 - **Sucesso!** O commit aparece no GitHub:
     - No arquivo **`app.js`**, a mudança é exibida.
-    - No histórico de commits, aparece o commit **"alterando limite para 100"** com a foto de Gabrielle.
-
-### **6. Próximo Passo: Sincronizando o Repositório Local**
-
-- Rodrigo destaca que **ele ainda não tem as alterações** no seu computador.
-- No próximo vídeo, aprenderão como **baixar atualizações** (**`git pull`**).
+    - No histórico de commits, aparece o commit **"alterando limite para 100"** com a foto do colaborador
 
 **Dica Extra:**
 
@@ -305,7 +300,7 @@ Para quem deseja começar, a Alura oferece um artigo introdutório sobre o tema:
 ### **2. Solução: O Comando `git pull`**
 
 - **Função:** Baixa commits do repositório remoto (**origin**) para o local, sincronizando as alterações.
-- **Sintaxe:** bash
+- **Sintaxe:**
     
     ```
     git pull origin main
@@ -370,7 +365,7 @@ Esse fluxo (**status → add → commit → push → pull**) é a base do trabal
 ### **1. Clonando um Repositório (`git clone`)**
 
 - Baixa uma cópia **completa** de um repositório do GitHub para o computador local.
-- Exemplo: bash
+- Exemplo:
     
     ```
     git clone <URL-do-repositório>
@@ -379,13 +374,13 @@ Esse fluxo (**status → add → commit → push → pull**) é a base do trabal
 
 ### **2. Registrando Alterações (`git add` e `git commit`)**
 
-- **`git add`:** Prepara as mudanças para serem salvas (adição ao *staging area*). bash
+- **`git add`:** Prepara as mudanças para serem salvas (adição ao *staging area*). 
     
     ```
     git add <arquivo> ou git add .
     ```
     
-- **`git commit`:** Cria um *snapshot* das alterações com uma mensagem descritiva. bash
+- **`git commit`:** Cria um *snapshot* das alterações com uma mensagem descritiva.
     
     ```
     git commit -m "mensagem explicativa"
@@ -403,13 +398,12 @@ Esse fluxo (**status → add → commit → push → pull**) é a base do trabal
 
 ### **5. Sincronizando com o GitHub (`git push` e `git pull`)**
 
-- **`git push`:** Envia commits locais para o repositório remoto.bash
-    
+- **`git push`:** Envia commits locais para o repositório remoto.
     ```
     git push origin main
     ```
     
-- **`git pull`:** Atualiza o repositório local com commits do remoto.bash
+- **`git pull`:** Atualiza o repositório local com commits do remoto.
     
     ```
     git pull origin main
@@ -534,7 +528,7 @@ A interface gráfica do Git no VS Code **simplifica o versionamento**, tornando
 
 - **Não decide automaticamente:** Git marca o conflito e pede intervenção humana.
 - **Arquivos em conflito:** São destacados na aba **Source Control** com ícone de alerta (⚠️).
-- **Conteúdo do arquivo conflitante (ex.: `app.js`):** javascript
+- **Conteúdo do arquivo conflitante (ex.: `app.js`):** 
     
     ```
     <<<<<<< HEAD
@@ -587,7 +581,7 @@ Conflitos são **naturais** em projetos colaborativos e ocorrem quando:
 
 - Após tentar **`git pull`**, o VS Code:
     - Mostra arquivos conflitantes na seção **Merge Changes** (com ícone ⚠️).
-    - Destaca as alterações conflitantes no código: javascript
+    - Destaca as alterações conflitantes no código:
         
         ```
         <<<<<<< HEAD (Current Change)
@@ -601,7 +595,7 @@ Conflitos são **naturais** em projetos colaborativos e ocorrem quando:
 
 - **Processo:**
     1. **Editar o arquivo:** Remover marcadores do Git (**`<<<<<<<`**, **`=======`**, **`>>>>>>>`**) e escolher a versão desejada (ou combinar ambas).
-        - Exemplo (após decisão): javascript
+        - Exemplo (após decisão):
             
             ```
             let numeroLimite = 40;// Versão final (Gabrielle)
@@ -711,7 +705,7 @@ Resolver conflitos é uma **parte essencial** do trabalho colaborativo com Git
 - **Cenário:**
     - Remoto: **`<h1>Título</h1>`**
     - Local: **`<h2>Subtítulo</h2>`**
-- **Solução escolhida:** **`Accept Combination Current First`** → Resultado: html
+- **Solução escolhida:** **`Accept Combination Current First`** → Resultado:
     
     ```
     <h2>Subtítulo</h2><h1>Título</h1>
@@ -757,7 +751,7 @@ O **Merge Editor** do VS Code é uma ferramenta **poderosa** para resolver c
 
 - **Passo 1:** Usar **`git log`** no terminal para ver o histórico completo.
     - Cada commit tem um **ID único** (hash SHA-1) e uma mensagem descritiva.
-    - Exemplo: bash
+    - Exemplo:
         
         ```
         commit 2ad48c068dc9677fb57efec70620700410f976b0
@@ -773,13 +767,13 @@ O **Merge Editor** do VS Code é uma ferramenta **poderosa** para resolver c
 - **Funcionamento:**
     - Cria um **novo commit** que desfaz as alterações do commit especificado.
     - Não apaga o commit original (mantém o histórico intacto).
-- **Sintaxe:** bash
+- **Sintaxe:** 
     
     ```
     git revert <ID-do-commit>
     ```
     
-    - Exemplo: bash
+    - Exemplo:
         
         ```
         git revert 2ad48c068dc9677fb57efec70620700410f976b0
@@ -791,7 +785,7 @@ O **Merge Editor** do VS Code é uma ferramenta **poderosa** para resolver c
 
 ### **4. Resultado do Revert**
 
-- **Novo commit no histórico:** bash
+- **Novo commit no histórico:**
     
     ```
     commit 3bf45a1d2e...
@@ -807,7 +801,7 @@ O **Merge Editor** do VS Code é uma ferramenta **poderosa** para resolver c
 
 ### **5. Sincronizando com o Repositório Remoto**
 
-- Enviar o commit de revert para o GitHub: bash
+- Enviar o commit de revert para o GitHub:
     
     ```
     git push origin main

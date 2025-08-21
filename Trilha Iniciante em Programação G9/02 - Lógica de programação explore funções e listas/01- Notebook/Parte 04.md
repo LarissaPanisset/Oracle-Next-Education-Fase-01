@@ -10,15 +10,13 @@
 
 ### Anotações
 
-Na aula, Mônica e Guilherme discutem como evitar a repetição de números sorteados em um jogo. Para isso, introduzem o conceito de **Array (lista)** em JavaScript, uma estrutura de dados fundamental presente em várias linguagens de programação.
+Na aula, discutem como evitar a repetição de números sorteados em um jogo. Para isso, introduzem o conceito de **Array (lista)** em JavaScript, uma estrutura de dados fundamental presente em várias linguagens de programação.
 
 1. **O que é um Array?**
     - Um Array é uma estrutura que armazena múltiplos valores em uma única variável.
     - Sintaxe: **`let lista = [elemento1, elemento2, ...];`** (usando colchetes **`[]`**).
     - Exemplo:
-        
-        javascript
-        
+
         ```
         let frutas = ["Maçã", "Banana"];
         let numeros = [1, 5, 9];
@@ -27,9 +25,7 @@ Na aula, Mônica e Guilherme discutem como evitar a repetição de números sort
 2. **Acessando Elementos**
     - Cada elemento tem um **índice**, começando em **0**.
         - Exemplo:
-            
-            javascript
-            
+ 
             ```
             numeros[0] → retorna 1
             numeros[1] → retorna 5
@@ -39,17 +35,13 @@ Na aula, Mônica e Guilherme discutem como evitar a repetição de números sort
 3. **Tamanho da Lista (`.length`)**
     - O método **`.length`** retorna a quantidade de elementos.
         - Exemplo:
-            
-            javascript
-            
+
             ```
             numeros.length → retorna 3
             ```
             
     - Para pegar o **último elemento**, usa-se:
-        
-        javascript
-        
+
         ```
         lista[lista.length - 1]
         ```
@@ -89,18 +81,14 @@ Na aula, Mônica e Guilherme implementam uma **lista de números já sorteados*
     - Uma lista vazia é criada com **`[]`**, assim como strings vazias usam **`""`**.
 2. **Modificação da Função `gerarNumeroAleatorio()`**
     - **Passo 1:** Gera um número aleatório e armazena em **`numeroEscolhido`**.
-        
-        javascript
-        
+  
         ```
         let numeroEscolhido = parseInt(Math.random() * 3 + 1);// Números de 1 a 3 para teste
         ```
         
     - **Passo 2:** Verifica se o número já está na lista com **`includes()`**.
         - Se **sim**, chama a função novamente (**recursão**):
-            
-            javascript
-            
+
             ```
             if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
                 return gerarNumeroAleatorio();
@@ -108,9 +96,7 @@ Na aula, Mônica e Guilherme implementam uma **lista de números já sorteados*
             ```
             
         - Se **não**, adiciona o número à lista com **`push()`** e retorna o valor:
-            
-            javascript
-            
+
             ```
             else {
                 listaDeNumerosSorteados.push(numeroEscolhido);
@@ -157,7 +143,7 @@ A lista **`listaDeNumerosSorteados`** agora evita repetições, usando método
 
 ### Anotações
 
-Mônica e Guilherme resolvem o problema de **loop infinito** quando todos os números possíveis já foram sorteados.
+resolver o problema de **loop infinito** quando todos os números possíveis já foram sorteados.
 
 1. **Identificação do Problema**
     - Ao sortear todos os números possíveis (1 a 3), a função entrava em **recursão infinita** (chamando **`gerarNumeroAleatorio()`** repetidamente).
@@ -165,9 +151,7 @@ Mônica e Guilherme resolvem o problema de **loop infinito** quando todos os n
 2. **Solução Implementada**
     - **Passo 1:** Verificar o tamanho da lista com **`listaDeNumerosSorteados.length`**.
     - **Passo 2:** Se a lista estiver cheia (todos os números sorteados), **esvaziar a lista**:
-        
-        javascript
-        
+
         ```
         if (quantidadeDeElementosNaLista == 3) {
             listaDeNumerosSorteados = [];// Limpa a lista}
@@ -176,17 +160,13 @@ Mônica e Guilherme resolvem o problema de **loop infinito** quando todos os n
     - **Passo 3:** Ajustar o multiplicador em **`Math.random()`** para **3** (equivalente ao limite de números).
 3. **Melhoria: Variável Dinâmica (`numeroLimite`)**
     - Criada uma variável global para evitar **hardcoding** (valores fixos no código):
-        
-        javascript
-        
+
         ```
         let numeroLimite = 10;// Define o intervalo de sorteio (1 a 10)
         ```
         
     - Atualização na função:
-        
-        javascript
-        
+
         ```
         let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
         if (quantidadeDeElementosNaLista == numeroLimite) {
@@ -235,7 +215,7 @@ A solução combina **verificação de lista cheia** e **limpeza automática*
 
 ### Anotações
 
-Nesta aula, Mônica e Guilherme enfrentam um problema crítico no jogo: quando todos os números possíveis eram sorteados, o programa entrava em **recursão infinita**, gerando um erro relacionado ao limite de chamadas da função **`Math.random()`**.
+Nesta aula, enfrentamos um problema crítico no jogo: quando todos os números possíveis eram sorteados, o programa entrava em **recursão infinita**, gerando um erro relacionado ao limite de chamadas da função **`Math.random()`**.
 
 1. **Identificação do Problema**
     - Ao limitar os números sorteados de 1 a 3, todos eram eventualmente escolhidos (ex: 4, 1, 3, 2).
@@ -243,9 +223,7 @@ Nesta aula, Mônica e Guilherme enfrentam um problema crítico no jogo: quando t
 2. **Solução Implementada**
     - **Passo 1:** Verificar o tamanho da lista com **`listaDeNumerosSorteados.length`**.
     - **Passo 2:** Se a lista atingisse o limite (3 números), ela era **esvaziada**:
-        
-        javascript
-        
+
         ```
         if (quantidadeDeElementosNaLista == 3) {
             listaDeNumerosSorteados = [];// Limpa a lista}
@@ -257,17 +235,13 @@ Nesta aula, Mônica e Guilherme enfrentam um problema crítico no jogo: quando t
     - O console mostrava a lista sendo esvaziada e um novo número sendo adicionado ao índice 0.
 4. **Melhoria: Variável Dinâmica (`numeroLimite`)**
     - Para evitar **hardcoding** (valores fixos), criou-se uma variável global:
-        
-        javascript
-        
+
         ```
         let numeroLimite = 10;// Define o intervalo de sorteio (1 a 10)
         ```
         
     - Atualização na função **`gerarNumeroAleatorio()`**:
-        
-        javascript
-        
+
         ```
         let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
         if (quantidadeDeElementosNaLista == numeroLimite) {
@@ -328,17 +302,13 @@ Arrays em JavaScript são estruturas de dados que permitem armazenar múltiplos 
 **Criação e Acesso:**
 
 - Declara-se uma array usando colchetes **`[]`**.
-    
-    javascript
-    
+
     ```
     let frutas = ["Maçã", "Uva", "Laranja"];
     ```
     
 - Os elementos são acessados via índice:
-    
-    javascript
-    
+
     ```
     console.log(frutas[0]);// "Maçã"
     console.log(frutas[2]);// "Laranja"
@@ -350,9 +320,7 @@ Arrays em JavaScript são estruturas de dados que permitem armazenar múltiplos 
 - **Adicionar elementos:**
     
     Usa-se o método **`push()`** para inserir no final.
-    
-    javascript
-    
+
     ```
     frutas.push("Morango");// ["Maçã", "Uva", "Laranja", "Morango"]
     ```
@@ -360,9 +328,7 @@ Arrays em JavaScript são estruturas de dados que permitem armazenar múltiplos 
 - **Remover elementos:**
     
     O método **`pop()`** remove o último elemento.
-    
-    javascript
-    
+
     ```
     frutas.pop();// Remove "Morango"
     ```

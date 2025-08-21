@@ -42,6 +42,8 @@ Planejar uma rotina de estudos não é apenas sobre **cronogramas rígidos**, m
 
 </aside>
 
+---
+
 ### **Organizando sua Rotina de Aprendizado com Eficiência**
 
 ### Lembretes
@@ -116,6 +118,8 @@ Organizar uma rotina de estudos **não é sobre perfeição, mas sobre adaptaç
 
 </aside>
 
+---
+
 ### **A Ciência por Trás do Aprendizado Eficaz: Corpo e Mente em Equilíbrio**
 
 ### Lembretes
@@ -173,6 +177,8 @@ Aprendizado não é apenas **"estudar mais"**, mas sim **"estudar melhor"**. I
 **Dica final:** No seu planejamento semanal, reserve horários não só para os cursos, mas também para **movimentar o corpo e dormir bem**. Seu cérebro agradecerá! 🧠💪
 
 </aside>
+
+---
 
 ### **Tecnologia como Aliada no Processo de Aprendizado**
 
@@ -266,6 +272,8 @@ A tecnologia não só **facilita** o aprendizado, mas também o **torna mais 
 você cria um **ecossistema de aprendizagem eficiente** — adaptável ao seu estilo e ritmo.
 
 </aside>
+
+---
 
 ### **Conclusão do Curso - Aprendizagem Eficaz na Prática**
 

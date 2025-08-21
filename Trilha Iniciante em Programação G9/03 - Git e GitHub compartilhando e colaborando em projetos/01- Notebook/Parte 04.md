@@ -201,7 +201,7 @@ O **`git reset`** é uma ferramenta **poderosa** para gerenciar o histórico
 
 ### **1. Contexto: Por Que Alterar um Commit?**
 
-Rodrigo e Gabrielle discutem situações comuns onde é necessário **modificar um commit existente** em vez de criar um novo:
+Situações comuns onde é necessário **modificar um commit existente** em vez de criar um novo:
 
 - **Mensagem incorreta:** Exemplo: "Trocando texto do botão para *avidinhar*" (erro de digitação).
 - **Arquivos esquecidos:** Quando você faz um commit, mas esquece de incluir um arquivo modificado.
@@ -373,8 +373,6 @@ Alterar o histórico de commits é como editar o passado: pode ser útil, mas tr
 
 ### **1. A Importância da Documentação**
 
-Gabrielle e Rodrigo destacam que:
-
 - **Código sem documentação** é difícil de entender para novos colaboradores ou usuários.
 - O **README.md** é o cartão de visita do projeto no GitHub, exibido automaticamente na página inicial do repositório.
 
@@ -461,7 +459,7 @@ Um **README.md bem estruturado** é essencial para:
 
 ### **1. O Problema dos Arquivos Indesejados**
 
-Rodrigo e Gabrielle discutem situações onde **não queremos enviar certos arquivos** para o repositório remoto:
+Situações onde **não queremos enviar certos arquivos** para o repositório remoto:
 
 - **Arquivos temporários** (ex: **`temp/teste.txt`**).
 - **Dados sensíveis** (senhas em **`.env`**).
@@ -555,7 +553,7 @@ O **`.gitignore`** é **essencial** para:
 
 ### **1. Introdução ao GitHub Gist**
 
-Rodrigo e Gabrielle exploram como compartilhar **trechos específicos de código** sem criar um repositório completo:
+Como compartilhar **trechos específicos de código** sem criar um repositório completo:
 
 - **Problema:** Compartilhar apenas partes relevantes (ex: uma biblioteca ou função).
 - **Solução:** Usar o **GitHub Gist**, uma ferramenta para snippets de código.
@@ -579,17 +577,13 @@ Rodrigo e Gabrielle exploram como compartilhar **trechos específicos de códig
 
 - **Código compartilhado:**
     - **`index.html`**: Inclusão da biblioteca ResponsiveVoice.js:
-        
-        html
-        
+
         ```
         <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
         ```
         
     - **`app.js`**: Configuração da voz:
-        
-        javascript
-        
+
         ```
         responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
         ```

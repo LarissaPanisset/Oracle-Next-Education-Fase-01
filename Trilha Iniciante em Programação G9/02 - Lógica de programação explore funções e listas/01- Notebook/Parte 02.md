@@ -24,7 +24,7 @@ Apesar de funcionar, essa abordagem se torna repetitiva e pouco eficiente, princ
 
 ### **2. Identificando Padrões e Melhorando o Código**
 
-Guilherme e Mônica destacam que:
+Professores destacam que:
 
 - O código segue um padrão: **selecionar um elemento → modificar seu texto**.
 - As únicas diferenças são:
@@ -37,8 +37,6 @@ Isso indica que podemos **generalizar** esse comportamento em uma **função 
 
 Para evitar repetição, é criada a função:
 
-javascript
-
 ```
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -48,9 +46,7 @@ function exibirTextoNaTela(tag, texto) {
 
 - **Parâmetros:** **`tag`** (elemento HTML) e **`texto`** (conteúdo a ser exibido).
 - **Chamada da função:**
-    
-    javascript
-    
+
     ```
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
@@ -107,14 +103,12 @@ A aula reforça a importância de:
 
 ### **1. Introdução à Nova Funcionalidade**
 
-Mônica e Guilherme introduzem uma nova função para **gerar um número aleatório**, complementando as funções já criadas (**`exibirTextoNaTela`** e **`verificarChute`**).
+Professores introduzem uma nova função para **gerar um número aleatório**, complementando as funções já criadas (**`exibirTextoNaTela`** e **`verificarChute`**).
 
 ### **2. Criando a Função `gerarNumeroAleatorio`**
 
 - **Declaração da função:**
-    
-    javascript
-    
+
     ```
     function gerarNumeroAleatorio() {
         return parseInt(Math.random() * 10 + 1);
@@ -129,9 +123,7 @@ Mônica e Guilherme introduzem uma nova função para **gerar um número aleat�
 ### **3. Armazenando o Retorno em uma Variável**
 
 - A variável **`numeroSecreto`** recebe o valor retornado pela função:
-    
-    javascript
-    
+
     ```
     let numeroSecreto = gerarNumeroAleatorio();
     ```
@@ -140,7 +132,7 @@ Mônica e Guilherme introduzem uma nova função para **gerar um número aleat�
 
 ### **4. Tipos de Funções**
 
-Guilherme explica as diferenças entre:
+As diferenças entre:
 
 1. **Funções sem parâmetros e sem retorno** (ex: **`verificarChute`**).
 2. **Funções com parâmetros e sem retorno** (ex: **`exibirTextoNaTela`**).
@@ -186,8 +178,6 @@ Guilherme explica as diferenças entre:
 
 No arquivo **`index.html`**, temos um campo onde o jogador digita seu palpite:
 
-html
-
 ```
 <input type="number" min="1" max="10" class="container__input">
 ```
@@ -198,8 +188,6 @@ html
 ### **2. Capturando o Valor do Input**
 
 Na função **`verificarChute()`**, usamos:
-
-javascript
 
 ```
 let chute = document.querySelector('input').value;
@@ -212,8 +200,6 @@ let chute = document.querySelector('input').value;
 ### **3. Comparando Chute e Número Secreto**
 
 Usamos **`==`** para comparar os valores:
-
-javascript
 
 ```
 console.log(chute == numeroSecreto);

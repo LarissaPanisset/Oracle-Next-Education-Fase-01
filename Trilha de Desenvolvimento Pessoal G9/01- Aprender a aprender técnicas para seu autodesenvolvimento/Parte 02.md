@@ -54,6 +54,8 @@
 
 </aside>
 
+---
+
 ### **Por Que Temos Boas Ideias no Banho? O Poder do Modo Difuso**
 
 ### Lembretes
@@ -101,6 +103,8 @@
 **"Grandes descobertas surgem quando a mente vagueia. Não subestime o poder de uma pausa."**
 
 </aside>
+
+---
 
 ### **Como Aprender com Eficiência: Descubra Seu Estilo Ideal**
 
@@ -168,6 +172,8 @@ Não existe um **"melhor método"** universal – o segredo está em **combin
 **"Ensinar é a forma mais poderosa de aprender. Compartilhe seu conhecimento e fixe o que sabe!"**
 
 </aside>
+
+---
 
 ### **A Ciência da Memória: Por Que Esquecemos e Como Evitar**
 
@@ -237,6 +243,8 @@ O esquecimento é **natural**, mas pode ser vencido com **revisões estratégi
 
 </aside>
 
+---
+
 ### **Neurociência e Memória de Longo Prazo**
 
 ### Lembretes
@@ -273,6 +281,8 @@ Para transformar conhecimento em memória de longo prazo, é essencial:
 **Dica-chave:** Discipline-se para construir e revisar blocos, como um "muro" de conhecimento sólido.
 
 </aside>
+
+---
 
 ### **Como Definir Metas no Processo de Aprendizagem**
 
@@ -343,6 +353,8 @@ Para aprender de forma efetiva, é essencial:
 
 </aside>
 
+---
+
 ### **Como Estruturar Metas com o Método SMART (Peter Drucker)**
 
 ### Lembretes
@@ -412,6 +424,8 @@ Para metas eficazes:
 
 </aside>
 
+---
+
 ### **Estruturando o Processo de Aprendizado com Métricas e Blocos de Informação**
 
 ### Lembretes
@@ -477,6 +491,8 @@ Para um aprendizado eficaz, é preciso:
 O exemplo de Fabiana mostra que mesmo com resultados parciais, a **autoavaliação contínua** permite refinamentos no processo, tornando o aprendizado sustentável e adaptável.
 
 </aside>
+
+---
 
 ### **Procrastinação e Estratégias para uma Aprendizagem Eficaz**
 

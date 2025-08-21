@@ -30,6 +30,8 @@ Estratégias para o desenvolvimento pessoal em um mundo de informações acelera
 
 </aside>
 
+---
+
 ### **Velocidade da Transformação e Aprendizado Contínuo**
 
 ### Lembretes
@@ -69,6 +71,8 @@ Qual habilidade sua que era fundamental 5 anos atrás e hoje já não é mais? N
 Vivemos em uma era de mudanças exponenciais, onde conhecimentos rapidamente se tornam obsoletos. A educação tradicional não acompanha essa velocidade, exigindo uma mentalidade de **aprendizado contínuo** (*life long learning*). Para permanecer relevante, é preciso adaptar-se, desaprender o ultrapassado e absorver novas habilidades – caso contrário, o mercado deixará para trás. O futuro pertence a quem domina a arte de **aprender a aprender**.
 
 </aside>
+
+---
 
 ### **Definindo o Foco de Aprendizado com o IKIGAI**
 
@@ -119,6 +123,8 @@ Definir o foco de estudos exige **autoconhecimento** e **clareza de propósit
 
 </aside>
 
+---
+
 ### **IKIGAI e Estilos de Aprendizagem**
 
 ### Lembretes
@@ -149,6 +155,8 @@ O ideal é passar por todos os ciclos de aprendizagem, mas primeiro é necessár
 Tanto o IKIGAI quanto a aprendizagem são processos dinâmicos, exigindo autoconhecimento e adaptação. Reconhecer como aprendemos (segundo Kolb) potencializa nosso desenvolvimento pessoal e profissional.
 
 </aside>
+
+---
 
 ### **Talento vs. Disciplina: Saindo da Zona de Conforto**
 
@@ -190,6 +198,8 @@ Para aprender, é preciso:
 4. Conviver com quem inspira melhoria contínua.
 
 </aside>
+
+---
 
 ### **Disciplina vs. Talento: A Jornada para a Aprendizagem Eficaz**
 
@@ -244,6 +254,8 @@ A **disciplina supera o talento** quando se trata de aprendizagem duradoura. 
 **"A aprendizagem não acontece no conforto. Arrisque-se, erre, cresça!"**
 
 </aside>
+
+---
 
 ### **Como Criar Hábitos de Aprendizagem: Disciplina > Velocidade**
 
@@ -304,6 +316,8 @@ A **disciplina consistente** é a chave para sair da zona de conforto e formar
 
 </aside>
 
+---
+
 ### **Como Vencer as Distrações e Melhorar o Foco nos Estudos**
 
 ### Lembretes
@@ -359,6 +373,8 @@ São fatores que **desviam nosso foco** do que realmente importa no aprendizad
 **"O problema não é falta de tempo, mas de escolhas. Cada minuto focado é um passo contra a estagnação."**
 
 </aside>
+
+---
 
 ### **TEMA7 Hábitos Poderosos para Aprender Melhor e Continuamente**
 
@@ -446,6 +462,8 @@ Aprendizagem contínua (**Lifelong Learning**) depende de **hábitos intenciona
 **"Você não precisa ser gênio para aprender, só precisa ser consistente. Grandes mestres começaram como curiosos obstinados.**
 
 </aside>
+
+---
 
 ### **Mindset Fixo vs. Crescimento: Como Sua Mentalidade Impacta o Aprendizado**
 
