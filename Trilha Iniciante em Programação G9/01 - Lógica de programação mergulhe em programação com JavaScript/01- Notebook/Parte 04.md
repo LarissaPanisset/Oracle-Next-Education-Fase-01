@@ -16,7 +16,6 @@
 Em JavaScript, os operadores lógicos são fundamentais para criar estruturas condicionais que permitem ao programa tomar decisões com base em diferentes situações. Eles avaliam expressões e retornam valores booleanos (**`true`** ou **`false`**), possibilitando o controle do fluxo do programa.
 
 ---
-
 ### **1. Operador AND (`&&`)**
 
 - **Função:** Verifica se **todas** as condições são verdadeiras.

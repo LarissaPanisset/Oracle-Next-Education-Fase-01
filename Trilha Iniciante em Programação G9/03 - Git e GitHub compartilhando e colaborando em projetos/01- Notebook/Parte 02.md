@@ -198,7 +198,6 @@ git push origin main
 - Consegue modificar os arquivos localmente, mas no próxima aula será explicado como enviar alterações de volta ao GitHub (commits e push).
 
 <aside>
-
 📌 **RESUMO**:
 
 Nesta aula, aprendemos a **clonar um repositório do GitHub** para trabalhar localmente, garantindo que todo o histórico e estrutura do Git sejam preservados. Vimos que, embora o **Download ZIP** seja uma opção, a **clonagem via Git** é a melhor prática para projetos colaborativos. Além disso, reforçamos a importância de repositórios públicos (permitindo acesso a outros desenvolvedores) e preparamos o ambiente no VS Code para edição. No próximo vídeo, exploraremos como modificar os arquivos e sincronizar as mudanças com o repositório remoto.

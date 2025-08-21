@@ -2,7 +2,7 @@
 
 ### **Lógica de Programação: A Base para Resolver Problemas com Código**
 
-Lembretes
+Lembretes 
 
 - **Lógica de programação: Pensamento estruturado para resolver problemas.**
 - **Algoritmo: Sequência de passos para um objetivo.**
@@ -60,7 +60,6 @@ Uma **sequência ordenada de passos** para atingir um objetivo.
 - Se um passo for pulado (ex.: esquecer a água), o café não sai.
 
 <aside>
-
 📌 **RESUMO**:
 
 **Lógica de programação é:**

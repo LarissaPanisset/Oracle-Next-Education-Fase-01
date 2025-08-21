@@ -53,7 +53,6 @@
 **Nota:** Essa aula reforça a importância de **trabalhar com branches** para evitar a necessidade de apagar commits compartilhados. Em time, alinhamento é essencial!
 
 <aside>
-
 📌 **RESUMO**:
 
 O **`git reset --hard`** é uma ferramenta poderosa para **excluir commits locais** que não devem mais existir no histórico. No entanto:

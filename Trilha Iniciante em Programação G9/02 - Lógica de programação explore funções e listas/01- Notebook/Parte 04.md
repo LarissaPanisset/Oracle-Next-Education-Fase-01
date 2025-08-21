@@ -53,7 +53,6 @@ Na aula, discutem como evitar a repetição de números sorteados em um jogo. Pa
     - Futuramente, métodos como inserção, remoção e busca podem ser explorados.
 
 <aside>
-
 📌 **RESUMO**:
 
 Arrays são essenciais para organizar e manipular conjuntos de dados. Neste contexto, serão usados para controlar os números sorteados, garantindo que não se repitam. A documentação do JavaScript (MDN) é uma ótima fonte para aprofundamento.

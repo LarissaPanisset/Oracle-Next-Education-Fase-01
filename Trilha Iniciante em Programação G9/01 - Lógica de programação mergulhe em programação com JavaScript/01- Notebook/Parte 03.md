@@ -21,7 +21,6 @@
         let x = 1// ASI adiciona ; aquilet y = 2
         ```
         
-
 ### **2. Problemas do ASI**
 
 - **Comportamentos inesperados**:

@@ -64,7 +64,6 @@
     let numeroSecreto = 5;
     console.log(numeroSecreto);// Exibe 5 (sem aspas!)
     ```
-    
 
 ### **4. Fluxo de Execução**
 

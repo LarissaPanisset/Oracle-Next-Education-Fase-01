@@ -50,6 +50,7 @@
 - **Dica do GitHub**: A plataforma exibe um **tutorial básico** com comandos para subir o código (a ser explorado nas próximas aulas).
 
 <aside>
+
 📌 **RESUMO**:
 
 - **Repositórios são a base** para organizar projetos no GitHub, permitindo separação clara entre diferentes códigos.

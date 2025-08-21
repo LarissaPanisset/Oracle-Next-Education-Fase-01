@@ -65,7 +65,6 @@ function exibirTextoNaTela(tag, texto) {
 - **Personalização**: A documentação oferece outras vozes e configurações.
 
 <aside>
-
 📌 **RESUMO**:
 
 A integração do ResponsiveVoice trouxe acessibilidade e interatividade ao jogo, narrando ações em tempo real. Isso demonstra como bibliotecas externas podem expandir funcionalidades além do JavaScript puro, enriquecendo a experiência do usuário.
