@@ -1,5 +1,5 @@
 # 🚀 Oracle Next Education (ONE) - Resumo do Programa
-
+Nesse repositório compartilho minhas anotações, exercícios e projetos do programa 🚀💻
 
 ## 📌 O que é o ONE?
 Programa de formação em tecnologia com conexão ao mercado de trabalho, fruto da parceria entre Oracle e Alura.
