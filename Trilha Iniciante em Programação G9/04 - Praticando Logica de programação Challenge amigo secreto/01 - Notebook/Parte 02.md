@@ -47,7 +47,7 @@ document.getElementById('resultado').innerHTML =
 <aside>
 📌 **RESUMO**:
 
-O código inicial apresenta alguns problemas: ele permite nomes repetidos, não descarta os nomes já sorteados em novos sorteios e não possui um encerramento, ficando em loop infinito. Seria interessante adicionar um aviso informando quando todos os nomes já tiverem sido sorteados.
+Alguns problemas para corrigir: ele permite nomes repetidos, não descarta os nomes já sorteados em novos sorteios e não possui um encerramento, ficando em loop infinito, adicionar um aviso informando quando todos os nomes já tiverem sido sorteados.
 
 </aside>
 
@@ -171,11 +171,11 @@ function sortearAmigo() {
 <aside>
 📌 **RESUMO**:
 
-**Melhorias Futuras no Código (após concluir o restante do curso):**
+**Melhorias Futuras no Código (após concluir o restante da trilha):**
 
-- **Aprimorar o design da página**, tornando a interface mais moderna e intuitiva.
+- **Aprimorar o design da página**, tornando a interface bonita e intuitiva.
 - **Adicionar um botão de “Reiniciar”**, permitindo que o sorteio seja refeito do zero sem precisar recarregar a página.
-- **Incluir a opção de ocultar o nome sorteado exibido na tela**, evitando que a próxima pessoa veja quem já foi sorteado anteriormente.
+- **Incluir a opção de ocultar o nome sorteado exibido na tela**, evitando que a próxima pessoa veja quem acabou de ser sorteado.
 - **Aumentar a complexidade do sistema**, permitindo que cada participante adicione até **3 opções de presente** ao inserir o nome.
     - Quando esse participante for sorteado, as 3 opções de presente deverão aparecer junto ao nome sorteado, facilitando a escolha do presenteador.
 </aside>
