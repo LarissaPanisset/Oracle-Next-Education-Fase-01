@@ -9,17 +9,19 @@ Programa de formação em tecnologia com conexão ao mercado de trabalho, fruto 
 
 ## 📚 Estrutura do Programa
 
-### Fase 1: Seleção (2 meses)
+### Fase 1: Inscrição
+
+### Fase 2: Seleção (2 meses)
 - Trilhas iniciais de programação e desenvolvimento pessoal
 - **Challenge** eliminatório
 
-### Fase 2: Tech Foundation (5 meses)
+### Fase 3: Tech Foundation (5 meses)
 - Escolha de especialização:  
   - **Data Science**  
   - **Back-End**   
 - Soft Skills e Challenges
 
-### Fase 3: Tech Advanced (5 meses)
+### Fase 4: Tech Advanced (5 meses)
 - Conteúdos Oracle  
 - Comunidade AlumniONE com vagas exclusivas  
 
